@@ -18,7 +18,7 @@ namespace SimpleWebAppMVC.Controllers
 
             model.AppName   = info.ProductName;
             model.Copyright = info.LegalCopyright;
-            model.Url       = "https://simple-web-app-mvc-dotnet.azurewebsites.net/";
+            model.Url       = "https://rahul-first-test.azurewebsites.net//";
             model.Version   = ("Version " + info.ProductVersion);
 
             return View(model);
